@@ -1,40 +1,101 @@
-body{
+body {
     font-family: "Inter", sans-serif;
     font-size: 15px;
+    max-width: 1130px;
+    margin: 0 auto;
+    color: #1F1F1F;
 }
-s
 header {
-    display: flex ;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.left-flex{
+.left-flex {
     display: flex;
     align-items: center;
 }
-
-.logo{
+.logo {
     margin-right: 36px;
-
-
 }
 .nav-flex a {
-    margin-left: 24px;
+    margin-right: 24px;
 }
 a {
     text-decoration: none;
     color: #33383F;
 }
-.sign-in{
+.sing-in {
     color: #0070A0;
     background: none;
     border: none;
 }
-.demo{
+.demo {
     color: #FFFFFF;
     background-color: #0070A0;
     padding: 6px 20px;
     border: none;
-    
-    
+}
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 58px;
+    font-weight: 400;
+    width: 485px;
+}
+.main-info-text {
+    font-size: 20px;
+    color: #1F1F1F;
+}
+.main-info-buttons {
+    display: flex;
+    align-items: center;
+}
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto 120px auto;
+}
+.main-info-left {
+    width: 380px;
+}
+.companies-text{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.companies-list{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+.companies-list li{
+    margin-right: 62px;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 162px;
+    margin-bottom: 120px;
+}
+.features div{
+    padding: 32px 32px 40px 32px;
+    width: 291px;
+}
+h2{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.features-fast{
+    background-color: #FAEA73 ;
+}
+.features-buck{
+    background-color: #CCEFF6 ;
+}
+.features-safe{
+    background-color: #F7CEDC ;
 }
