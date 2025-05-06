@@ -253,6 +253,7 @@ h4 {
     padding: 25px 0 28px 24px;
     width: 288px;
 }
+
 .blog-block-item-info h5 {
     color: #2c90c9;
     background-color: #e5f7ff;
@@ -260,23 +261,28 @@ h4 {
     font-size: 12px;
     width: fit-content;
 }
+
 .blog-block-item-info h2 {
     margin: 8px 0 12px 0;
 }
+
 .blog-date {
     font-size: 12px;
     margin-top: 13px;
 }
+
 .faf{
     display: flex;
     flex-wrap: wrap;
     margin-top: 120px;
     margin-bottom: 120px;
 }
+
 .barber{
     width: 650px;
     height: 55px;
 }
+
 .omg{
     width: 650px;
     height: 122px;
@@ -284,41 +290,37 @@ h4 {
     flex-direction: column;
     margin-bottom: 65px;
 }
-.banan{
+
+.start{
     font-size: 42px;
     color: #1F1F1F;
 }
-.capa{
-    font-size: 25px;
-    color: #1F1F1F;
-}
-.suda{
-    font-size: 18px;
-    color: #1F1F1F;
-}
-.care-title1{
 
+.care-title1{
     padding-top: 80px;
     padding-bottom: 80px;
-
 }
-.ack{
+
+.hello{
     height: 370px;
     width: 1130px;
     background-color: #E6F7FF;
 }
-.cr{
+
+.world{
     height: 258px;
     width: 480px;
     margin-left: 64px;
     margin-top: 64px;
     margin-bottom: 48px;
 }
-.ne{
+
+.lorem{
     height: 54px;
     width: 400px;
     margin-top: 21px;
 }
+
 .demo1 {
     color: #FFFFFF;
     background-color: #0070A0;
@@ -327,60 +329,69 @@ h4 {
     padding: 6px 20px;
     border: none;
 }
-.ni{
+
+.im{
     column-gap: 36px;
     display: flex;
     font-family: "Inter", sans-serif;
     font-size: 13px;
     color: #1F1F1F;
 }
+
 .none{
     color: #0070A0;
 }
-.opt{
+
+.down{
     margin: 130px auto 64px auto;
     display: flex;
-  }
+}
   
-  .imus {
+.low {
     width: 430px;
-  }
+}
 
-  .bl1 {
+.footer-info {
     grid-area: 👾;
     height: 216px;
     width: 216px;
-  }
+}
   
-  .bl2 {
+.footer-admin {
     grid-area: good;
     height: 216px;
     width: 216px;
-  }
-  .bl3{
+}
+
+.footer-newsletter{
     grid-area: footer;
     height: 216px;
     width: 216px;
-  }
+}
 
-.lol{
+.signup{
     height: 72px;
     width: 180px;
 } 
-.cunga{
+
+.line1{
     margin-top: 64px;
 }
-.arab{
+
+.rights1{
     display: flex;
     justify-content: space-between;
     margin-top: 36px;
 }
+
 .ram{
     margin-left: 20px;
 }
-.xex{
+
+.built{
     line-height: 0.19;
 }
+
 .input{
     color: #212529;
     opacity: 0.4;
@@ -388,35 +399,47 @@ h4 {
     border-left: none;
     border-right: none;
   }
+
 .footer-logo-links{
     color: #0070A0;
 }
+
 .footer-logo p{
     margin: 0;
 }
+
 .footer-logo img {
     margin-bottom: 19px;
 }
-.asus a{
+
+.links a{
     display: block;
     color: #626A72;
     margin-bottom: 10px;
 }
+
 h6 {
     margin-bottom: 16px;
     font-weight: 400;
     font-size: 15px;
 }
-.bl3 {
-    width: 210px;
+
+.footer-newsletter {
+    width: 220px;
 }
-.bl3 input {
+
+.footer-newsletter input {
     border: none;
     outline: none;
     border-bottom: 1px solid #c2cdd8;
     padding: 17px 0 7px 15px;
 }
 
-.bl3 input::after {
+.footer-newsletter button{
+    border: none;
+    background: none;
+}
+
+.footer-newsletter button::after {
     content: url(assets/arrow.svg);
 }
